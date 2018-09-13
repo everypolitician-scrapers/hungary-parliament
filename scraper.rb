@@ -29,7 +29,7 @@ def member_data(name, url)
     name: name,
     image: noko.css('.kepviselo-foto/@src').text,
     email: noko.xpath('.//table[.//th[contains(.,"E-mail")]]//a').text,
-    source: url,
+    # source: url, # changes every time
     term: 41,
   }
 
